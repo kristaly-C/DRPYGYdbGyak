@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1603282774 source:/home/kristaly/Documents/cpp/2_feladat/KCSE_3/main.c
+	<stdio.h>
+	<stdlib.h>
+
