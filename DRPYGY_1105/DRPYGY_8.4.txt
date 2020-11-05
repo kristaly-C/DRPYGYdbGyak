@@ -1,0 +1,4 @@
+INSERT INTO `termekek` (`tkod`, `nev`, `ear`, `kategoria`) VALUES ('1', 'valami', '100', 'BA21');
+INSERT INTO `termekek` (`tkod`, `nev`, `ear`, `kategoria`) VALUES ('2', 'mas', '1000', 'TH21');
+DELETE FROM `termekek` WHERE ear < 200
+UPDATE `termekek` SET `ear`= (ear*0.9) WHERE `kategoria`= 'BA21'

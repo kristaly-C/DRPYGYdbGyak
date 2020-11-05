@@ -1,0 +1,3 @@
+ALTER TABLE `termekek` ADD `szín` VARCHAR(30) NOT NULL AFTER `kategoria`;
+DROP TABLE ` termekek `
+DELETE FROM `termekek` WHERE `kategoria` IS NULL
